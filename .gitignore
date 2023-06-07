@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/  # We do want to include this
 lib64/
 parts/
 sdist/
