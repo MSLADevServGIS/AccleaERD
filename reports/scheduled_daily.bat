@@ -1,0 +1,1 @@
+conda activate py11 && python edens_interface/edens_interface.py

@@ -1,0 +1,22 @@
+# Template TOML config file for emails
+
+subject = "Accela Data for Edens"
+
+body = """
+All,
+
+Attached is the payment data from Accela for {date}.
+
+Sent by script (edens_interface.py)
+"""
+
+important = false
+
+
+#to = ["wallyg@ci.missoula.mt.us"]
+to = ["admin_finance@ci.missoula.mt.us"]
+#cc  = ["WallyG@ci.missoula.mt.us"]
+bcc = []
+
+# Individuals
+#ElenskyG@ci.missoula.mt.us, HoulihanB@ci.missoula.mt.us, LyK@ci.missoula.mt.us

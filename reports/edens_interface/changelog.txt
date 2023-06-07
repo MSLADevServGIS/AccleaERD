@@ -1,0 +1,12 @@
+# CHANGELOG
+
+5/1/2023
+* Built! Functioning per desired specs.
+
+5/23/2023
+* Turns out 'E' will never be in this report. Commented out old section and hard-coded 'R' in the SQL.
+
+5/26/2023
+* Replaced sys.argv with a new argparse-wrapping function `reportutils.make_arg_parser`
+* Refactored how DEBUG works: now a `--debug` flag is used, unless overwritten by the DEBUG global.
+* Updated the `make_logger` function to propertly set the LEVEL; added hour (and "-debug") to log names.
